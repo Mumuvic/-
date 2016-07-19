@@ -105,6 +105,7 @@ def init_main_window():
     """
     global root, frame_bonus,frame_canvas, label_bonus, canvas
     root  = tkinter.Tk()
+    root.title("Игра Шарики")
     frame_bonus = tkinter.Frame(root)
     label_caption = tkinter.Label(frame_bonus, text="  Накопленные очки  ", width=20, font="Calibri 14")
     label_bonus = tkinter.Label(frame_bonus, text="0", font="Calibri 14")
